@@ -13,11 +13,14 @@ const Navbar = () => {
       <div className="container mx-auto px-4 h-16">
         <div className="flex items-center justify-between h-full">
           <div className="flex items-center gap-8">
-            <Link to="/" className="flex items-center gap-2.5 hover:opacity-80 transition-all">
-              <div className="size-9 rounded-lg bg-primary/10 flex items-center justify-center">
-                <MessageSquare className="w-5 h-5 text-primary" />
-              </div>
-              <h1 className="text-lg font-bold">Chatty</h1>
+            <Link
+              to="/"
+              className="flex items-center gap-2.5 hover:opacity-80 transition-all"
+            >
+              <img src="/logo.png" className="w-10 h-10 text-primary" />
+              <h1 className="text-lg font-bold text-[#4A90E2] hover:text-[#1D3557] font-poppins transition-all ease-in-out duration-300">
+                VAGO Chat
+              </h1>
             </Link>
           </div>
 
